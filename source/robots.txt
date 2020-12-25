@@ -1,0 +1,5 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://doc.loafing.cn/sitemap.xml
