@@ -2,6 +2,23 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: false
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: false
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
+
+
 # Site
 title: 应用说明书
 subtitle: ''
