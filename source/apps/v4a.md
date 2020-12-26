@@ -4,7 +4,6 @@ description: 拯救你糊成一坨的音效
 type: docs
 date: 2020-12-24 23:09:51
 update: 2020-12-24 23:09:51
-permalink: /v4a
 ---
 
 [xda 发布页](https://www.xda-developers.com/viper4android-v2-7-new-ui-profile-management/)

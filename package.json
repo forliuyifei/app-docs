@@ -14,15 +14,18 @@
   "dependencies": {
     "hexo": "^5.3.0",
     "hexo-deployer-git": "^2.1.0",
+    "hexo-filter-nofollow": "^2.0.2",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-neat": "^1.0.9",
+    "hexo-pangu": "^0.2.0",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^3.3.0",
     "hexo-renderer-stylus": "^2.0.1",
-    "hexo-server": "^2.0.0"
+    "hexo-server": "^2.0.0",
+    "hexo-tag-hint": "^0.3.1"
   }
 }

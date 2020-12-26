@@ -18,11 +18,17 @@ neat_js:
   exclude:
     - '*.min.js'
 
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'loafing.cn'
+    - 'blog.loafing.cn'
 
 # Site
 title: 应用说明书
 subtitle: ''
-description: '各类软件的非官方使用文档'
+description: '各类软件的非官方使用文档，让 Android 更好用！'
 keywords: Android,app,docs
 author: 青菜芋子
 language: zh-CN
