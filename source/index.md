@@ -1,12 +1,12 @@
 ---
-title: To be continue
-description: 欢迎交流补充
+title: 发现应用的乐趣
+description: To be continue..
 type: docs
 date: 2020-12-01 00:00:00
 ---
 
 ## 介绍
-记录部分应用的踩坑记录、使用心得和技巧，告别各种日经帖。~~以 Android 应用为主。~~
+记录部分应用的踩坑记录、使用心得和技巧，告别各种日经帖。~~以 Android 应用为主。（Maybe）~~
 
 ## 应用获取方式推荐
 以下排名不完全代表先后。
