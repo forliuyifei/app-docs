@@ -32,7 +32,9 @@ Absolutely unofficial documents.
 *`Attribution-NonCommercial-ShareAlike`*
 `署名-非商业性使用-相同方式共享协议`
 
-文档源码存放在 [GitHub](https://github.com/forliuyifei/app-docs)，基于 [Hexo](https://hexo.io/zh-cn/) 构建，采用主题 [Doku](https://github.com/SukkaW/hexo-theme-doku) 渲染，静态页面托管于 [Vercel](https://vercel.com/dashboard)。
+文档源码存放在 [GitHub](https://github.com/forliuyifei/app-docs)，基于 [Hexo](https://hexo.io/zh-cn/) 构建，采用主题 [Doku](https://github.com/SukkaW/hexo-theme-doku) 渲染，静态页面托管于 [Vercel](https://vercel.com/dashboard)，图片资源加速主要依赖 [jsDeliver](https://www.jsdelivr.com/)，在此表示对这些服务提供者的由衷感谢。
+
+---
 
 如果您有任何值得分享的个人经验，欢迎前往 GitHub [补充改进此文档](https://github.com/forliuyifei/app-docs#%E6%94%B9%E8%BF%9B%E6%96%B9%E5%BC%8F)。
 

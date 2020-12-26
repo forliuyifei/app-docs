@@ -22,3 +22,17 @@ update: 2020-12-24 21:27:02
 **解决方案：**
 先刷 [MagiskCU.zip](https://lanzoui.com/iS22wj1wqfi) 再刷 [Magisk-v21.1.zip](https://github.com/topjohnwu/Magisk/releases/download/v21.1/Magisk-v21.1.zip) 便可正常开机并获取 root 权限。
 如果出现 “需要修复”，保证网络通畅，修复它即可。
+
+
+### 部分应用出现问题
+比如网易云音乐无法扫描本地音乐，表现为一直处于扫描状态。
+还有静读天下无法使用。
+
+**解决措施：**
+在 Magisk hide 里面将对应的软件勾上。
+
+**注意：**如果软件能正常使用，不要随意将其 hide，比如支付宝，在 Magisk hide 里面勾上支付宝，将导致支付宝变得异常卡顿。
+
+## 其它相关教程
+- [Magisk精通指南（小白向）-  Android爱好者 2020.04.11](https://www.coolapk.com/feed/17973123)
+- [使用 Android Overlay 替换机制作 Magisk 汉化模块 - 幻夢清雨樓 2020.08.02](https://www.coolapk.com/feed/20614159)
