@@ -2,56 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://doc.loafing.cn/Brevent.html</loc>
+    <loc>https://doc.loafing.cn/apps/</loc>
     
     <lastmod>2020-12-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doc.loafing.cn/Custom-ROM-Extends.html</loc>
+    <loc>https://doc.loafing.cn/p/</loc>
+    
+    <lastmod>2020-12-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doc.loafing.cn/p/app-collections.html</loc>
+    
+    <lastmod>2020-12-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doc.loafing.cn/p/Android-Literacy.html</loc>
+    
+    <lastmod>2020-12-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doc.loafing.cn/apps/Brevent.html</loc>
+    
+    <lastmod>2020-12-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://doc.loafing.cn/p/Custom-ROM-Extends.html</loc>
     
     <lastmod>2020-12-25</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doc.loafing.cn/WeChat.html</loc>
+    <loc>https://doc.loafing.cn/apps/WeChat.html</loc>
     
     <lastmod>2020-12-25</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doc.loafing.cn/no-ads.html</loc>
+    <loc>https://doc.loafing.cn/p/no-ads.html</loc>
     
     <lastmod>2020-12-25</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doc.loafing.cn/FolderSync.html</loc>
+    <loc>https://doc.loafing.cn/apps/FolderSync.html</loc>
     
     <lastmod>2020-12-24</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doc.loafing.cn/nian.html</loc>
+    <loc>https://doc.loafing.cn/apps/nian.html</loc>
     
     <lastmod>2020-12-24</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doc.loafing.cn/v4a.html</loc>
+    <loc>https://doc.loafing.cn/apps/v4a.html</loc>
     
     <lastmod>2020-12-24</lastmod>
     
   </url>
   
   <url>
-    <loc>https://doc.loafing.cn/Magisk.html</loc>
+    <loc>https://doc.loafing.cn/apps/Magisk.html</loc>
     
     <lastmod>2020-12-24</lastmod>
     
