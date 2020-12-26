@@ -23,3 +23,14 @@
    git push
    ```
 4. 发起 Pull requests
+
+---
+
+#### 获取文章列表
+```
+cd ~/app-docs
+#!/bin/bash
+echo `date +"%Y-%m-%d %H:%M:%S"` > source/Archive.txt
+tree "source/p" "source/apps" >> source/Archive.txt
+tree "public/p" "public/apps" >> source/Archive.txt
+```

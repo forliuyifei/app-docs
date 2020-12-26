@@ -16,4 +16,6 @@ description:
 
 侧栏位置有限。
 
-哦对了，本站还有 [站点地图](/sitemap.xml) 。
+哦对了，本站还有 [站点地图](/sitemap.xml) ，按照时间倒序即时更新。
+
+或者查看使用 tree 命令导出的 [文章归档列表](/Archive.txt)
