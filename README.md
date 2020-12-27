@@ -1,19 +1,21 @@
 # app-docs
 [应用说明书](https://doc.loafing.cn) 的 hexo 源码。
 
-**为方便访问，同时存放在 [GitHub](https://github.com/forliuyifei/app-docs) 和 [Coding](https://forzqx.coding.net/p/app-docs/d/app-docs/git)（国内速度很快）**
+**为方便访问，同时存放在 [GitHub](https://github.com/forliuyifei/app-docs) 和 [Coding](https://forzqx.coding.net/p/app-docs/d/app-docs/git)（国内速度很快）**。
 
 欢迎任何热爱 Android 的玩家改进此文档。
 
 ## 改进方式
 ### 网页端
-直接在浏览器修改此仓库的某个文件并提交 Pull requests
+直接在浏览器修改此仓库的某个文件（主要是 `source/p` 和 `source/apps` ），
+
+并提交 Pull requests 。
 
 如果你没有相关经验，可以参考这篇 [从零到 PR](https://ld246.com/article/1589724003386)，图文并茂，很容易理解。
 
 
 ### 使用终端 GIT 命令
-适合长篇大论。
+适合埋头苦干、长篇大论。
 
 **步骤**
 1. 将此项目 fork 到你自己的仓库
@@ -28,9 +30,13 @@
 
 ---
 
-~~#### 获取文章列表~~
-~~cd ~/app-docs~~
-~~#!/bin/bash~~
-~~echo `date +"%Y-%m-%d %H:%M:%S"` > source/Archive.txt~~
-~~tree "source/p" "source/apps" >> source/Archive.txt~~
-~~tree "public/p" "public/apps" >> source/Archive.txt~~
+<!--
+#### 获取文章列表
+```
+cd ~/app-docs
+#!/bin/bash
+echo `date +"%Y-%m-%d %H:%M:%S"` > source/Archive.txt
+tree "source/p" "source/apps" >> source/Archive.txt
+tree "public/p" "public/apps" >> source/Archive.txt
+```
+-->
