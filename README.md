@@ -1,6 +1,8 @@
 # app-docs
 [应用说明书](https://doc.loafing.cn) 的 hexo 源码。
 
+**为方便访问，同时存放在 [GitHub](https://github.com/forliuyifei/app-docs) 和 [Coding](https://forzqx.coding.net/p/app-docs/d/app-docs/git)（国内速度很快）**
+
 欢迎任何热爱 Android 的玩家改进此文档。
 
 ## 改进方式
@@ -26,11 +28,9 @@
 
 ---
 
-#### 获取文章列表
-```
-cd ~/app-docs
-#!/bin/bash
-echo `date +"%Y-%m-%d %H:%M:%S"` > source/Archive.txt
-tree "source/p" "source/apps" >> source/Archive.txt
-tree "public/p" "public/apps" >> source/Archive.txt
-```
+~~#### 获取文章列表~~
+~~cd ~/app-docs~~
+~~#!/bin/bash~~
+~~echo `date +"%Y-%m-%d %H:%M:%S"` > source/Archive.txt~~
+~~tree "source/p" "source/apps" >> source/Archive.txt~~
+~~tree "public/p" "public/apps" >> source/Archive.txt~~
