@@ -144,3 +144,13 @@ com.baidu.searchbox.novel.reader.ad.ReaderAdvertisementActivity
   上传和下载速度很快，分享文件便于管理，有下载次数（流量）限制策略，自行衡量。
   >免费空间 40GB ⭐ 高级别加密
 - 欢迎补充……
+
+### Gif 助手
+禁用活动关键词 `ads.`
+```
+com.qq.e.ads.ADActivity
+com.qq.e.ads.LandscapeADActivity
+com.qq.e.ads.PortraitADActivity
+com.qq.e.ads.RewardvideoLandscapeADActivity
+com.qq.e.ads.RewardvideoPortraitADActivity
+```

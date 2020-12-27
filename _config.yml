@@ -29,10 +29,10 @@ nofollow:
 title: 应用说明书
 subtitle: ''
 description: '各类软件的非官方使用文档，让 Android 更好用！'
-keywords: Android,app,docs
+keywords: Android,app,docs,教程,文档
 author: 青菜芋子
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -122,6 +122,8 @@ theme: doku
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:forliuyifei/app-docs.git
+- type: git
+  repo: 
+       github: git@github.com:forliuyifei/app-docs.git
   branch: gh-pages
+

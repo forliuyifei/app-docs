@@ -11,7 +11,8 @@ description: 文件夹同步
 
 
 ## 下载
-[Google Play](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.liteend)
+- [Google Play 正版](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.liteend)
+- [蓝奏云](https://lanzous.com/i4ZQojq6xba)（仅 64 位可用）
 
 ## 相关教程
 - [在安卓实现全目录自定义同步——FolderSync Pro使用说明书 ](https://www.coolapk.com/feed/16814157)
