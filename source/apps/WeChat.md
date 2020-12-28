@@ -6,7 +6,7 @@ update: 2020-12-25 15:19:33
 description: 几亿人都教不会张小龙做产品
 ---
 
-## 技巧
+
 ### 微信版本
 尽量使用 play 版或官网的 64 位版本
 ![微信官网](https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020/12/1608884699893.webp)
@@ -25,6 +25,20 @@ description: 几亿人都教不会张小龙做产品
 ![正在运行 WeChat](https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020/12/1608884152718.webp)
 
 *部分机型出厂自带的微信版本可能也不错，只是后期可能强制升级。*
+
+#### obb 文件
+
+Play 版的大体积应用往往会将 apk 和 obb 文件分离，这对运行效率有所提高。有时突然发现微信登录卡死、黑屏，尤其是在双开、多开的情况下，可能是由于缺少 obb 文件。
+
+该文件可能在这些目录下面：
+```
+/storage/emulated/0/Android/obb/com.tencent.mm/
+/storage/self/primary/Android/obb/com.tencent.mm/
+/sdcard/Android/obb/com.tencent.mm/
+```
+不同的系统可能略有出入。
+
+## 技巧
 
 ### 透明 / 半透明头像
 1. 做一张 “很大” 的透明底图，比如 2000×2000 ，假设这是一个九宫格。
@@ -53,6 +67,55 @@ description: 几亿人都教不会张小龙做产品
 复制链接
 https://ads.privacy.qq.com/ads/optout.html
 到微信打开，右上角登录，底部关闭个性化广告。
+
+### 修改资料地区
+隐藏省市信息，只保留「中国大陆」。
+
+两种办法：
+
+1. **虚拟定位**（不一定需要root）
+   使用 [Fake Location](https://github.com/Lerist/FakeLocation/releases) 、大牛等虚拟定位工具，将定位改至我国的海域位置，比如渤海、黄海。
+   再去微信资料设置界面就能看见定位变成了「中国大陆」，保存结束操作。
+   *亲测 7.0.18 版有效，2020.12.28。*
+2. **修改地理信息文件**（需要root）
+   正常定位，打开微信点击个人资料到地区一栏，显示当前实际位置。
+   MT管理器打开文件夹 `/data/data/com.tencent.mm/MicroMsg/regioncode/`
+   打开文件 `mmregioncode_zh_CN.txt`
+   滑动或者搜索，找到你所在的省份，删除你所在的省份的 **所有地区**，保存退出。
+   返回微信，当前定位就只剩下「中国大陆」，保存即可。
+      
+### 改性别为空
+
+在微信资料的「更多信息」界面，用 [GG 修改器](https://gameguardian.net/) 搜索数值类型【D: Dword】，反复修改男、女、男、女……逐步缩小范围，最终改为 0 。
+
+`男 1，女 2，空 0 。`
+
+我这里未能成功，但别人有成功的例子。
+
+
+### 保留数据降级微信
+
+有时候新版太难用，赘余功能太多，受不了，想保留当前聊天记录回旧版本，该咋办呢？
+
+有 root 的话，选用「核心破解」的方式即可，直接用老版本的安装包覆盖安装就能成功。
+
+如果没 root，需要连接电脑，使用 adb 命令进行操作：
+
+1. 确保 `adb devices` 连接成功。
+2. 保留数据仅卸载微信程序。
+   ```
+   adb shell pm uninstall -k com.tencent.mm
+   ```
+3. 重启手机。
+4. 重新连接，进行旧版本安装。
+   ```
+   adb install -r c:\weixin.apk
+   ```
+   *小技巧：不必手输安装包所在目录和文件名，直接用鼠标将文件拖进命令行窗口即可。*
+
+如果你用的是 Android 11，甚至可以使用无线调试，自己对自己进行运行 ADB 命令，免电脑完成以上步骤。
+
+当然还有最常用的方法，备份聊天记录、卸载新版、安装旧版、恢复聊天记录，一气呵成。
 
 ## 其它
 ### Matrix
