@@ -32,8 +32,11 @@ description: 良心应用推荐
 ### [流体手势导航](https://play.google.com/store/apps/details?id=com.fb.fluid)
 Fluid Navigation Gestures
 
-比自带的手势导航好用。
+比自带的手势导航好用，支持二级手势。
 （Android 11 暂时无法隐藏导航栏，期待后续更新）
+
+*有xposed框架或者太极的可以用 edge pro 模块，更强大，自定义更丰富，玩法更多。*
+*xp 对性能的影响很容易感知，渣机伤不起。*
 
 ### [搜索 Lite](https://www.coolapk.com/apk/com.orekie.search)
 配合流体手势的长滑动作，快速启动搜索，非常方便。
@@ -51,8 +54,8 @@ Universal Copy
 
 ### [Authenticator](https://www.coolapk.com/apk/com.azure.authenticator)
 微软出品的二次验证工具。
-不必后台常驻，碰到需要验证的情况，也能极速响应。
-新版（6.2012.8446）支持「自动填充」，可替代 Google 自家的自动填充，方便网络不通畅的用户使用。
+即使加入电池未优化，它也不会后台常驻，碰到需要验证的情况，仍然极速响应。
+新版（6.2012.8446）支持「自动填充」帐号密码，可替代 Google 自家的自动填充，方便网络不通畅的用户使用。
 （可走 FCM ）
 
 ### [几何天气](https://www.coolapk.com/apk/wangdaye.com.geometricweather)
@@ -77,7 +80,7 @@ Geometric Weather
 
 ### [欧路词典](https://www.coolapk.com/apk/com.qianyan.eudic)
 碰到稍复杂、专业的翻译情景，替代谷歌翻译。
-可导入词典。
+可导入专业词典。
 
 ### [黑阈](https://jianyu.io/)
 对我而言，最主要的功能其实是监控 app 运行状态，过于流氓的软件添加为「临时应用」。
@@ -90,6 +93,8 @@ Geometric Weather
 配合 FolderSync 随意备份至 坚果云 webdav / One Drive 或其它存储空间。
 配合 流体手势 - 快捷方式 - Nova 活动 - nian.so.view.NewStepA
 快速新建笔记：nian.so.view.NewStepA
+少有的支持 GIF 动图封面和背景的笔记 app。
+还有 GitHub 那样的 “绿墙”，督促你好好记录别偷懒。
 （可进缓存）
 
 ### [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite)
