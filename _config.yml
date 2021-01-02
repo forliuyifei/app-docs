@@ -24,6 +24,8 @@ nofollow:
   exclude:
     - 'loafing.cn'
     - 'blog.loafing.cn'
+    - 'py.loafing.cn'
+    - 'liuyifei.club'
 
 # Site
 title: 应用说明书

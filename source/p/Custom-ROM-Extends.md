@@ -24,7 +24,7 @@ description: 良心应用推荐
 当前使用系统环境：
 - `Pixel Extended, Android 11, Magisk 21.1`
 
-  ![xbtcd16318e7ea82013593a7ee120469f4fd](https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/1608918577383.jpg)
+  [![xbtcd16318e7ea82013593a7ee120469f4fd](https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/1608918577383.jpg)](https://pixelextended.me/)
 
   ![IMG_20201226_215921](https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020/12/1608991188961.webp)
 
@@ -129,3 +129,11 @@ QQ 邮箱客户端其实也不错，甚至可以直接代收 Gmail。只是它�
 
 下载地址：[蓝奏云](https://lanzous.com/b00o5bsod)
 验证码：良心
+
+---
+
+感谢小编提供的 py 交易 <img src="https://cdn.jsdelivr.net/gh/forliuyifei/emoticon@master/weibo/d_touxiao.png" alt="d_touxiao.png" title="d_touxiao"/>
+
+![py](https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020/12/1609387610950.webp)
+
+[![点击前往酷安](https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020/12/1609387610951.webp)](https://www.coolapk.com/album/23618598)
